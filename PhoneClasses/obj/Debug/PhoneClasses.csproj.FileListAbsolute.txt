@@ -1,0 +1,6 @@
+H:\Project management\PhoneSystem(real)\PhoneClasses\bin\Debug\PhoneClasses.dll
+H:\Project management\PhoneSystem(real)\PhoneClasses\bin\Debug\PhoneClasses.pdb
+H:\Project management\PhoneSystem(real)\PhoneClasses\obj\Debug\PhoneClasses.csprojAssemblyReference.cache
+H:\Project management\PhoneSystem(real)\PhoneClasses\obj\Debug\PhoneClasses.csproj.CoreCompileInputs.cache
+H:\Project management\PhoneSystem(real)\PhoneClasses\obj\Debug\PhoneClasses.dll
+H:\Project management\PhoneSystem(real)\PhoneClasses\obj\Debug\PhoneClasses.pdb

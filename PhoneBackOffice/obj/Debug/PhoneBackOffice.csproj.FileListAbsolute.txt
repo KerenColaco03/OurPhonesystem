@@ -7,3 +7,12 @@ H:\iMAT 2204\New folder\PhoneSystem\PhoneBackOffice\obj\Debug\PhoneBackOffice.cs
 H:\iMAT 2204\New folder\PhoneSystem\PhoneBackOffice\obj\Debug\PhoneBackOffice.csproj.CoreCompileInputs.cache
 H:\iMAT 2204\New folder\PhoneSystem\PhoneBackOffice\obj\Debug\PhoneBackOffice.exe
 H:\iMAT 2204\New folder\PhoneSystem\PhoneBackOffice\obj\Debug\PhoneBackOffice.pdb
+H:\Project management\PhoneSystem(real)\PhoneBackOffice\bin\Debug\PhoneBackOffice.exe.config
+H:\Project management\PhoneSystem(real)\PhoneBackOffice\bin\Debug\PhoneBackOffice.exe
+H:\Project management\PhoneSystem(real)\PhoneBackOffice\bin\Debug\PhoneBackOffice.pdb
+H:\Project management\PhoneSystem(real)\PhoneBackOffice\obj\Debug\PhoneBackOffice.csprojAssemblyReference.cache
+H:\Project management\PhoneSystem(real)\PhoneBackOffice\obj\Debug\PhoneBackOffice.Properties.Resources.resources
+H:\Project management\PhoneSystem(real)\PhoneBackOffice\obj\Debug\PhoneBackOffice.csproj.GenerateResource.cache
+H:\Project management\PhoneSystem(real)\PhoneBackOffice\obj\Debug\PhoneBackOffice.csproj.CoreCompileInputs.cache
+H:\Project management\PhoneSystem(real)\PhoneBackOffice\obj\Debug\PhoneBackOffice.exe
+H:\Project management\PhoneSystem(real)\PhoneBackOffice\obj\Debug\PhoneBackOffice.pdb

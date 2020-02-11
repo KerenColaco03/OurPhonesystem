@@ -1,0 +1,16 @@
+H:\Project management\PhoneSystem(real)\PhoneTesting\obj\Debug\PhoneTesting.csprojAssemblyReference.cache
+H:\Project management\PhoneSystem(real)\PhoneTesting\obj\Debug\PhoneTesting.csproj.CoreCompileInputs.cache
+H:\Project management\PhoneSystem(real)\PhoneTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+H:\Project management\PhoneSystem(real)\PhoneTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+H:\Project management\PhoneSystem(real)\PhoneTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+H:\Project management\PhoneSystem(real)\PhoneTesting\bin\Debug\PhoneTesting.dll
+H:\Project management\PhoneSystem(real)\PhoneTesting\bin\Debug\PhoneTesting.pdb
+H:\Project management\PhoneSystem(real)\PhoneTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+H:\Project management\PhoneSystem(real)\PhoneTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+H:\Project management\PhoneSystem(real)\PhoneTesting\bin\Debug\PhoneClasses.dll
+H:\Project management\PhoneSystem(real)\PhoneTesting\bin\Debug\PhoneClasses.pdb
+H:\Project management\PhoneSystem(real)\PhoneTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+H:\Project management\PhoneSystem(real)\PhoneTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+H:\Project management\PhoneSystem(real)\PhoneTesting\obj\Debug\PhoneTesting.csproj.CopyComplete
+H:\Project management\PhoneSystem(real)\PhoneTesting\obj\Debug\PhoneTesting.dll
+H:\Project management\PhoneSystem(real)\PhoneTesting\obj\Debug\PhoneTesting.pdb

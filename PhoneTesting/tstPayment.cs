@@ -29,5 +29,51 @@ namespace PhoneTesting
             Assert.AreEqual(AnPayment.CardExpiry, TestData);
 
         }
+        [TestMethod]
+        public void CardHoldersNameOK()
+        {
+            //create an instance of the class we want to cerate
+            clsPayment AnPayment = new clsPayment();
+            //create some test data to assign to the property
+            string TestData = "a";
+            //assign the data to the property
+            AnPayment.CardHoldersName = TestData;
+            //test to see that the two values are the same
+            Assert.AreEqual(AnPayment.CardHoldersName, TestData);
+        }
+        [TestMethod]
+        public void CardNo()
+        {
+            //create an instance of the class we want to cerate
+            clsPayment AnPayment = new clsPayment();
+            //create some test data to assign to the property
+            Int32 TestData = 1;
+            //assign the data to the property
+            AnPayment.CardNo = TestData;
+            //test to see that the two values are the same
+            Assert.AreEqual(AnPayment.CardNo, TestData);
+        }
+        public void OrderID()
+        {
+            //create an instance of the class we want to cerate
+            clsPayment AnPayment = new clsPayment();
+            //create some test data to assign to the property
+            Int32 TestData = 1;
+            //assign the data to the property
+            AnPayment.OrderID = TestData;
+            //test to see that the two values are the same
+            Assert.AreEqual(AnPayment.OrderID, TestData);
+        }
+        public void PaymentID()
+        {
+            //create an instance of the class we want to cerate
+            clsPayment AnPayment = new clsPayment();
+            //create some test data to assign to the property
+            Int32 TestData = 1;
+            //assign the data to the property
+            AnPayment.PaymentID = TestData;
+            //test to see that the two values are the same
+            Assert.AreEqual(AnPayment.PaymentID, TestData);
+        }
     }
-}
+   }

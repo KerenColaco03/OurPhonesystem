@@ -9,5 +9,6 @@ namespace PhoneClasses
         }
 
         public DateTime OrderDate { get; set; }
+        public int CustomerID { get; set; }
     }
 }

@@ -9,5 +9,6 @@ namespace PhoneClasses
         public int CardNo { get; set; }
         public int OrderID { get; set; }
         public int PaymentID { get; set; }
+        
     }
 }

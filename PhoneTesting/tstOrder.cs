@@ -30,6 +30,28 @@ namespace PhoneTesting
             Assert.AreEqual(AnOrder.OrderDate, TestData);
 
         }
+        public void CustomerIDOK()
+        {
+            //create an instance of the class we want to cerate
+            clsOrder AnPayment = new clsOrder();
+            //create some test data to assign to the property
+            Int32 TestData = 1;
+            //assign the data to the property
+            AnPayment.CustomerID = TestData;
+            //test to see that the two values are the same
+            Assert.AreEqual(AnPayment.CustomerID, TestData);
+        }
+        public void OrderIDOK()
+        {
+            //create an instance of the class we want to cerate
+            clsPayment AnPayment = new clsPayment();
+            //create some test data to assign to the property
+            Int32 TestData = 1;
+            //assign the data to the property
+            AnPayment.OrderID = TestData;
+            //test to see that the two values are the same
+            Assert.AreEqual(AnPayment.OrderID, TestData);
+        }
     }
 
 }

@@ -20,6 +20,10 @@
         .auto-style4 {
             height: 27px;
         }
+        .auto-style5 {
+            width: 206px;
+            text-align: right;
+        }
     </style>
 </head>
 <body style="height: 369px; width: 854px">
@@ -39,7 +43,7 @@
                         <asp:Label ID="lblFirstname" runat="server" Text="Firstname"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtFirstname" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -47,7 +51,7 @@
                         <asp:Label ID="lblLastname" runat="server" Text="Lastname"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtLastname" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -55,7 +59,7 @@
                         <asp:Label ID="lblEmail" runat="server" Text="Email"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -63,7 +67,13 @@
                         <asp:Label ID="lblCountry" runat="server" Text="Country"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+                        <asp:DropDownList ID="ddlCountry" runat="server">
+                            <asp:ListItem>Select a Country</asp:ListItem>
+                            <asp:ListItem>Nigeria</asp:ListItem>
+                            <asp:ListItem>France</asp:ListItem>
+                            <asp:ListItem>UK</asp:ListItem>
+                            <asp:ListItem>Germany</asp:ListItem>
+                        </asp:DropDownList>
                     </td>
                 </tr>
                 <tr>
@@ -71,7 +81,7 @@
                         <asp:Label ID="lblStreetname" runat="server" Text="Streetname"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtStreetname" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -79,7 +89,7 @@
                         <asp:Label ID="lblPostcode" runat="server" Text="Postcode"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtPostCode" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -87,27 +97,51 @@
                         <asp:Label ID="lblHouseNo" runat="server" Text="HouseNo"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="TextBox8" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtHouseNo" runat="server"></asp:TextBox>
                     </td>
-                </tr>
-                <tr>
-                    <td class="auto-style2">&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style2">&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style4">&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style2">
-                        <asp:Button ID="Button1" runat="server" Text="Button" />
+                        County</td>
+                    <td>
+                        <asp:TextBox ID="txtcounty" runat="server"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">
+                        Date Added</td>
+                    <td>
+                        <asp:TextBox ID="txtDateAdded" runat="server"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">
+                        <asp:CheckBox ID="chkActive" runat="server" Text="Active" />
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">
+                        <asp:Label ID="lblError" runat="server"></asp:Label>
+                    </td>
+                    <td class="auto-style4">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style5">
+                        <asp:Button ID="btnOK" runat="server" Text="OK" OnClick="btnOK_Click" Width="64px" />
                     </td>
                     <td>
-                        <asp:Button ID="Button2" runat="server" Text="Button" />
+                        <asp:Button ID="btnCancel" runat="server" Text="Cancel" OnClick="btnCancel_Click" />
                     </td>
                 </tr>
             </table>

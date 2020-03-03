@@ -36,6 +36,7 @@
 &nbsp;<br />
             <br />
             <br />
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Registration.aspx">Don&#39;t Have an Account, Register Now.</asp:HyperLink>
             <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <table class="auto-style1">
@@ -57,7 +58,7 @@
                 </tr>
                 <tr>
                     <td class="auto-style2">
-                        <asp:Button ID="BtnSubmit" runat="server" Text="Submit" />
+                        <asp:Button ID="BtnSubmit" runat="server" Text="Submit" OnClick="BtnSubmit_Click" />
                     </td>
                     <td>
                         <asp:Button ID="BtnCancel" runat="server" Text="Cancel" />

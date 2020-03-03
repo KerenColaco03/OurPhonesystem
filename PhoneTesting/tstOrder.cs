@@ -54,6 +54,17 @@ namespace PhoneTesting
             //test to see that the two values are the same
             Assert.AreEqual(AnPayment.OrderID, TestData);
         }
+        [TestMethod]
+        public void TotalPriceOK()
+        {
+            //create an instance of the class we want to cerate
+            clsPayment AnPayment = new clsPayment();
+            //create some test data to assign to the property
+            Decimal TestData = 1;
+            //assign the data to the property
+            //AnPayment.TotalPrice = TestData;
+            //test to see that the two values are the same
+            Assert.AreEqual(AnPayment.OrderID, TestData);
+        }
     }
-
-}
+} 

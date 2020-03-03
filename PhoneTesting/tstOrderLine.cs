@@ -16,6 +16,7 @@ namespace PhoneTesting
             //test to see that it exists
             Assert.IsNotNull(AnOrder);
         }
+        [TestMethod]
         public void OrderIDOK()
         {
             //create an instance of the class we want to cerate
@@ -27,6 +28,7 @@ namespace PhoneTesting
             //test to see that the two values are the same
             Assert.AreEqual(AnOrderLine.OrderID, TestData);
         }
+        [TestMethod]
         public void OrderLineIDOK()
         {
             //create an instance of the class we want to cerate
@@ -38,6 +40,7 @@ namespace PhoneTesting
             //test to see that the two values are the same
             Assert.AreEqual(AnOrderLine.OrderLineID, TestData);
         }
+        [TestMethod]
         public void ProductIDOK()
         {
             //create an instance of the class we want to cerate
@@ -49,6 +52,7 @@ namespace PhoneTesting
             //test to see that the two values are the same
             Assert.AreEqual(AnOrderLine.ProductID, TestData);
         }
+        [TestMethod]
         public void QuantityOK()
         {
             //create an instance of the class we want to cerate

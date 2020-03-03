@@ -53,6 +53,7 @@ namespace PhoneTesting
             //test to see that the two values are the same
             Assert.AreEqual(AnPayment.CardNo, TestData);
         }
+        [TestMethod]
         public void OrderIDOK()
         {
             //create an instance of the class we want to cerate
@@ -64,6 +65,7 @@ namespace PhoneTesting
             //test to see that the two values are the same
             Assert.AreEqual(AnPayment.OrderID, TestData);
         }
+        [TestMethod]
         public void PaymentIDOK()
         {
             //create an instance of the class we want to cerate

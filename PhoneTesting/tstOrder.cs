@@ -30,6 +30,7 @@ namespace PhoneTesting
             Assert.AreEqual(AnOrder.OrderDate, TestData);
 
         }
+        [TestMethod]
         public void CustomerIDOK()
         {
             //create an instance of the class we want to cerate
@@ -41,6 +42,7 @@ namespace PhoneTesting
             //test to see that the two values are the same
             Assert.AreEqual(AnPayment.CustomerID, TestData);
         }
+        [TestMethod]
         public void OrderIDOK()
         {
             //create an instance of the class we want to cerate

@@ -1,0 +1,6 @@
+H:\iMAT 2204\Week 20\PhoneClasses\bin\Debug\PhoneClasses.dll
+H:\iMAT 2204\Week 20\PhoneClasses\bin\Debug\PhoneClasses.pdb
+H:\iMAT 2204\Week 20\PhoneClasses\obj\Debug\PhoneClasses.csprojAssemblyReference.cache
+H:\iMAT 2204\Week 20\PhoneClasses\obj\Debug\PhoneClasses.csproj.CoreCompileInputs.cache
+H:\iMAT 2204\Week 20\PhoneClasses\obj\Debug\PhoneClasses.dll
+H:\iMAT 2204\Week 20\PhoneClasses\obj\Debug\PhoneClasses.pdb

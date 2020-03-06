@@ -33,7 +33,7 @@ namespace PhoneTesting
             //create an instance of the class we want to create
             clsProduct AProduct = new clsProduct();
             //create some test data to assign the property
-            Boolean TestData = true;
+            string TestData = "64gb";
             //assign the data to the property
             AProduct.Capacity = TestData;
             //test to see that the two values are the same

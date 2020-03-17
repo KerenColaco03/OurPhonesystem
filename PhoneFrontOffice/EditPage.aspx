@@ -24,6 +24,13 @@
             width: 206px;
             text-align: right;
         }
+        .auto-style6 {
+            width: 206px;
+            height: 23px;
+        }
+        .auto-style7 {
+            height: 23px;
+        }
     </style>
 </head>
 <body style="height: 369px; width: 854px">
@@ -115,10 +122,10 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">
-                        &nbsp;</td>
-                    <td>
-                        &nbsp;</td>
+                    <td class="auto-style6">
+                        </td>
+                    <td class="auto-style7">
+                        </td>
                 </tr>
                 <tr>
                     <td class="auto-style2">&nbsp;</td>

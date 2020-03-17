@@ -31,7 +31,7 @@ public partial class LoginPage : System.Web.UI.Page
             {
                 Session["New"] = txtUsername.Text;
                 Response.Write("password is correct");
-                Response.Redirect("Default.aspx");
+                Response.Redirect("AddPage.aspx");
             }
             else
             {

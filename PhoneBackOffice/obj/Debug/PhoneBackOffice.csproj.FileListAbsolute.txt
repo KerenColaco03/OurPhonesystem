@@ -10,9 +10,9 @@ H:\iMAT 2204\New folder\PhoneSystem\PhoneBackOffice\obj\Debug\PhoneBackOffice.pd
 H:\Desktop\Week 20 project management\PhoneBackOffice\bin\Debug\PhoneBackOffice.exe.config
 H:\Desktop\Week 20 project management\PhoneBackOffice\bin\Debug\PhoneBackOffice.exe
 H:\Desktop\Week 20 project management\PhoneBackOffice\bin\Debug\PhoneBackOffice.pdb
-H:\Desktop\Week 20 project management\PhoneBackOffice\obj\Debug\PhoneBackOffice.csprojAssemblyReference.cache
 H:\Desktop\Week 20 project management\PhoneBackOffice\obj\Debug\PhoneBackOffice.Properties.Resources.resources
 H:\Desktop\Week 20 project management\PhoneBackOffice\obj\Debug\PhoneBackOffice.csproj.GenerateResource.cache
 H:\Desktop\Week 20 project management\PhoneBackOffice\obj\Debug\PhoneBackOffice.csproj.CoreCompileInputs.cache
 H:\Desktop\Week 20 project management\PhoneBackOffice\obj\Debug\PhoneBackOffice.exe
 H:\Desktop\Week 20 project management\PhoneBackOffice\obj\Debug\PhoneBackOffice.pdb
+H:\Desktop\Week 20 project management\PhoneBackOffice\obj\Debug\PhoneBackOffice.csprojAssemblyReference.cache

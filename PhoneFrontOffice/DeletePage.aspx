@@ -29,8 +29,8 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:Button ID="Button1" runat="server" Text="Button" Width="100px" />
-                        <asp:Button ID="Button2" runat="server" Text="Button" Width="100px" />
+                        <asp:Button ID="ButtonYes" runat="server" Text="Yes" Width="100px" OnClick="ButtonOK_Click" />
+                        <asp:Button ID="ButtonNo" runat="server" Text="No" Width="100px" />
                     </td>
                 </tr>
             </table>

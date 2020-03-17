@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Delete.aspx.cs" Inherits="Delete" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AddPage.aspx.cs" Inherits="AddPage" %>
 
 <!DOCTYPE html>
 
@@ -7,80 +7,79 @@
     <title></title>
     <style type="text/css">
         .auto-style1 {
-            height: 446px;
-            width: 824px;
-            text-align: left;
+            width: 100%;
         }
         .auto-style2 {
-            text-align: left;
-        }
-        .auto-style3 {
-            width: 100%;
-            height: 159px;
-        }
-        .auto-style4 {
-            height: 39px;
-        }
-        .auto-style5 {
-            height: 63px;
-        }
-        .auto-style6 {
-            height: 39px;
-            width: 571px;
-        }
-        .auto-style7 {
-            width: 571px;
-        }
-        .auto-style8 {
-            height: 63px;
-            width: 571px;
+            height: 23px;
         }
     </style>
 </head>
-<body>
+<body style="height: 662px; width: 941px">
     <form id="form1" runat="server">
-        <div class="auto-style1">
-            <div class="auto-style2">
-                <br />
-            </div>
-            <asp:GridView ID="GridView1" runat="server">
-            </asp:GridView>
+        <div style="height: 861px">
             <br />
-            <table class="auto-style3">
+            <br />
+            <br />
+            <br />
+            <br />
+            <asp:ListBox ID="lstCustomers" runat="server" Height="279px" Width="432px"></asp:ListBox>
+            <br />
+            <br />
+            <asp:Label ID="lblError" runat="server"></asp:Label>
+            <br />
+            <br />
+            <br />
+            <table class="auto-style1">
                 <tr>
-                    <td class="auto-style6">
-                        <asp:Label ID="lblError" runat="server" Text="Label"></asp:Label>
-                    </td>
-                    <td class="auto-style4"></td>
-                </tr>
-                <tr>
-                    <td class="auto-style7">
+                    <td class="auto-style2">
                         <asp:Label ID="lblPostCode" runat="server" Text="Please Enter a Post Code"></asp:Label>
                     </td>
+                    <td class="auto-style2"></td>
+                    <td class="auto-style2"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:TextBox ID="txtPostCode" runat="server"></asp:TextBox>
+                    </td>
+                    <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style6">
-                        <asp:TextBox ID="TextBox1" runat="server" Width="190px"></asp:TextBox>
+                    <td>
+                        <asp:Button ID="btnApply" runat="server" OnClick="btnApply_Click" Text="Apply" />
+                        <asp:Button ID="btnDisplayAll" runat="server" OnClick="btnDisplayAll_Click" Text="Display All" />
                     </td>
-                    <td class="auto-style4"></td>
-                </tr>
-                <tr>
-                    <td class="auto-style7">
-                        <asp:Button ID="btnApply" runat="server" Text="Apply" Width="120px" />
-                        <asp:Button ID="btnDisplayAll" runat="server" Text="Display All" Width="120px" />
-                    </td>
+                    <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style8">
-                        <asp:Button ID="btnAdd" runat="server" Text="Add" Width="180px" />
-                        <asp:Button ID="btnEdit" runat="server" Text="Edit" Width="180px" />
-                        <asp:Button ID="btnDelete" runat="server" Text="Delete" Width="180px" />
+                    <td>
+                        <asp:Button ID="btnAdd" runat="server" OnClick="btnAdd_Click" Text="Add" />
+                        <asp:Button ID="btnEdit" runat="server" OnClick="btnEdit_Click" Text="Edit" />
+                        <asp:Button ID="btnDelete" runat="server" OnClick="btnDelete_Click" Text="Delete" />
                     </td>
-                    <td class="auto-style5"></td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                 </tr>
             </table>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
         </div>
     </form>
 </body>

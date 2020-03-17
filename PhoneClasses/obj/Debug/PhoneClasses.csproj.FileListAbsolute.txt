@@ -1,6 +1,6 @@
 H:\Desktop\Week 20 project management\PhoneClasses\bin\Debug\PhoneClasses.dll
 H:\Desktop\Week 20 project management\PhoneClasses\bin\Debug\PhoneClasses.pdb
-H:\Desktop\Week 20 project management\PhoneClasses\obj\Debug\PhoneClasses.csprojAssemblyReference.cache
 H:\Desktop\Week 20 project management\PhoneClasses\obj\Debug\PhoneClasses.csproj.CoreCompileInputs.cache
 H:\Desktop\Week 20 project management\PhoneClasses\obj\Debug\PhoneClasses.dll
 H:\Desktop\Week 20 project management\PhoneClasses\obj\Debug\PhoneClasses.pdb
+H:\Desktop\Week 20 project management\PhoneClasses\obj\Debug\PhoneClasses.csprojAssemblyReference.cache

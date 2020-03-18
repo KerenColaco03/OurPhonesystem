@@ -11,4 +11,19 @@ public partial class BrowseProducts : System.Web.UI.Page
     {
 
     }
+
+    protected void btnDetails_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Iphone11Pro.aspx");
+    }
+
+    protected void btnDetail0_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("SamsungGalaxyS9.aspx");
+    }
+
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("IphoneX.aspx");
+    }
 }

@@ -20,9 +20,9 @@ namespace PhoneClasses
         //private data member for price 
         private double mPrice;
 
-       // public clsProduct()
-       // {
-       // }
+        public clsProduct()
+        {
+        }
 
         public string Brand
         {
@@ -164,10 +164,10 @@ namespace PhoneClasses
                 Error = Error + "The brand may not be blank : ";
             }
             //if the brand is greater than 30 charatcers 
-            if (brand.Length <3 | brand.Length > 30)
+            if (brand.Length > 30)
             {
                 //record the error
-                Error = Error + "The brand must be between 3 and 30 characters";
+                Error = Error + "The brand must be less than 30 characters";
             }
 
             if (productType.Length == 0)
@@ -209,55 +209,59 @@ namespace PhoneClasses
             {
                 //record an error
                 Error = Error + "The quantity may not be blank : ";
-
-                try
-                {
-                    Int32 Temp;
-                    Temp = Convert.ToInt32(productQuantity);
-                    if (Temp < 1)
-                    {
-                        Error = Error + "Quantity too short";
-                    }
-                    if (Temp > 6)
-                    {
-                        Error = Error + "Product Quantity too long";
-                    }
-                }
-                catch
-                {
-                    Error = Error + "Please enter a valid Product Quantity";
-                }
-
-
             }
-            
-         
+            if (productQuantity.Length < 1 | productQuantity.Length > 6)
+            {
+                //record an error 
+                Error = Error + "The product quantity must be between 1 and 6 characters: ";
+            }
+            try
+            {
+                Int32 Temp;
+                Temp = Convert.ToInt32(productQuantity);
+                if (Temp < 1)
+                {
+                    Error = Error + "Quantity too short";
+                }
+                if (Temp > 6)
+                {
+                    Error = Error + "Product Quantity too long";
+                }
+            }
+            catch
+            {
+                Error = Error + "Please enter a valid Product Quantity";
+            }
 
             //if the price is blank 
             if (price.Length == 0)
             {
                 //record an error
                 Error = Error + "The price may not be left blank";
-
-                try
+            }
+            if (price.Length < 1 | price.Length > 7)
+            {
+                //record an error
+                Error = Error + "The price must be between 1 and 7 characters";
+            }
+            try
+            {
+                Decimal Temp;
+                Temp = Convert.ToDecimal(price);
+                if (Temp < 1)
                 {
-                    Decimal Temp;
-                    Temp = Convert.ToDecimal(price);
-                    if (Temp < 1)
-                    {
-                        Error = Error + "price is too short";
-                    }
-                    if (Temp > 7)
-                    {
-                        Error = Error + "price is too long";
-                    }
+                    Error = Error + "price is too short";
                 }
-                catch
+                if (Temp > 7)
                 {
-                    Error = Error + "Please enter a valid price";
+                    Error = Error + "price is too long";
                 }
             }
-          
+            catch
+            {
+                Error = Error + "Please enter a valid price";
+            }
+
 
             //return any error messages
             return Error;

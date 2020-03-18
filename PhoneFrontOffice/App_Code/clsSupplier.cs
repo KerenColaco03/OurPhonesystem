@@ -92,7 +92,7 @@ namespace PhoneClasses
                 mSupplierName = Convert.ToString(DB.DataTable.Rows[0]["SupplierName"]);
                 mSupplierDate = Convert.ToDateTime(DB.DataTable.Rows[0]["SupplierDate"]);
                 mProductID = Convert.ToInt32(DB.DataTable.Rows[0]["ProductID"]);
-               
+
                 //return that everything worked ok
                 return true;
             }
@@ -149,29 +149,29 @@ namespace PhoneClasses
             {
                 //record an error
                 Error = Error + "The ProductID may not be blank";
-
-                try
-                {
-                    Int32 Temp;
-                    Temp = Convert.ToInt32(productID);
-                    if (Temp < 1)
-                    {
-                        Error = Error + "productID too short";
-                    }
-                    if (Temp > 10)
-                    {
-                        Error = Error + "productID too long";
-                    }
-                }
-                catch
-                {
-                    Error = Error + "please enter a valid productID";
-                }
-
-
             }
-          
-           
+            if (productID.Length < 1 | productID.Length > 10)
+            {
+                //record an error
+                Error = Error + "The productID must be between 1 and 10 characters";
+            }
+            try
+            {
+                Int32 Temp;
+                Temp = Convert.ToInt32(productID);
+                if (Temp < 1)
+                {
+                    Error = Error + "productID too short";
+                }
+                if (Temp > 10)
+                {
+                    Error = Error + "productID too long";
+                }
+            }
+            catch
+            {
+                Error = Error + "please enter a valid productID";
+            }
 
 
             //return any error messages 

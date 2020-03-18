@@ -122,9 +122,9 @@ namespace PhoneClasses
             //populate the array list with the data table 
             PopulateArray(DB);
         }
-    
-        
-  
+
+
+
         void PopulateArray(clsDataConnection DB)
         {
             //populate the array list based on the data table in the parameter DB

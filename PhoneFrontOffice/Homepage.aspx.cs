@@ -11,4 +11,9 @@ public partial class Homepage : System.Web.UI.Page
     {
 
     }
+
+    protected void btnShopProducts_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("BrowseProducts.aspx");
+    }
 }

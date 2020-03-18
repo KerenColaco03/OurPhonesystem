@@ -1,25 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PhoneClasses
+﻿namespace PhoneClasses
 {
-    class clsStaff
+    public class clsStaff
     {
-
-        public string FirstName;
-        public string LastName;
-        public string HouseNumber;
-        public string Password;
-        public string Country;
-        public string PostCode;
-        public string StreetName;
-        public int Username;
-
-
-
-
+        public int HouseNumber { get; set; }
+        public string StreetName { get; set; }
+        public string LastName { get; set; }
+        public string FirstName { get; set; }
+        public string County { get; set; }
+        public string Password { get; set; }
+        public string PostCode { get; set; }
+        public string Email { get; set; }
     }
 }

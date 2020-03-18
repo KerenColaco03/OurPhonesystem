@@ -29,7 +29,7 @@ namespace ClassLibrary
 
         public clsDataConnection()
         {
-            GetConString(GetDBName());
+            connectionString = "Server=tcp:keren.database.windows.net,1433;Initial Catalog=Phones;Persist Security Info=False;User ID=phone;Password=Ayishapatel123!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
         }
 
         public clsDataConnection(string DBLocation)

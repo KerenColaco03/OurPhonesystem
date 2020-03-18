@@ -91,7 +91,7 @@ namespace PhoneTesting
             //add the post code parameter
             NewCustomer.AddParameter("@PostCode", mThisCustomer.PostCode);
             //add the county code parameter
-            NewCustomer.AddParameter("@Country", mThisCustomer.Country);
+           
             //add the data added parameter
             NewCustomer.AddParameter("@DateAdded", mThisCustomer.DateAdded);
             //add the active parameter

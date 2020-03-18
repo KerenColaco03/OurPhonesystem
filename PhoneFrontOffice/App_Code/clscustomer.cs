@@ -35,7 +35,7 @@ namespace PhoneTesting
 
 
 
-       
+
         public string Firstname
         {
             get
@@ -48,7 +48,7 @@ namespace PhoneTesting
             }
         }
 
-       
+
         public string Lastname
         {
             get
@@ -61,7 +61,7 @@ namespace PhoneTesting
             }
         }
 
-        
+
         public string Email
         {
             get
@@ -74,45 +74,45 @@ namespace PhoneTesting
             }
         }
 
-        
-            public string HouseNo
-            {
-                get
-                {
-                    return mHouseNo;
-                }
-                set
-                {
-                    mHouseNo = value;
-                }
-            }
 
-           
-            public string Streetname
+        public string HouseNo
+        {
+            get
             {
-                get
-                {
-                    return mStreetname;
-                }
-                set
-                {
-                    mStreetname = value;
-                }
+                return mHouseNo;
             }
+            set
+            {
+                mHouseNo = value;
+            }
+        }
 
-            
-            public string PostCode
+
+        public string Streetname
+        {
+            get
             {
-                get
-                {
-                    return mPostCode;
-                }
-                set
-                {
-                    mPostCode = value;
-                }
+                return mStreetname;
             }
-       
+            set
+            {
+                mStreetname = value;
+            }
+        }
+
+
+        public string PostCode
+        {
+            get
+            {
+                return mPostCode;
+            }
+            set
+            {
+                mPostCode = value;
+            }
+        }
+
         public string County
         {
             get
@@ -124,107 +124,107 @@ namespace PhoneTesting
                 mCounty = value;
             }
         }
-       
-            public string Country
+
+        public string Country
         {
-                get
-                {
-                    return mCountry;
-                }
-                set
-                {
-                mCountry = value;
-                }
-            }
-
-            
-            public DateTime DateAdded
+            get
             {
-                get
-                {
-                    return mDateAdded;
-                }
-                set
-                {
-                    mDateAdded = value;
-                }
+                return mCountry;
             }
+            set
+            {
+                mCountry = value;
+            }
+        }
 
-       
+
+        public DateTime DateAdded
+        {
+            get
+            {
+                return mDateAdded;
+            }
+            set
+            {
+                mDateAdded = value;
+            }
+        }
+
+
 
         public bool Active
+        {
+            get
             {
-                get
-                {
-                    return mActive;
-                }
-                set
-                {
-                    mActive = value;
-                }
+                return mActive;
             }
-
-            
-            public int CustomerID
+            set
             {
-                get
-                {
-                    //this line of code sends data out of the property
-                    return mCustomerID;
-                }
-                set
-                {
+                mActive = value;
+            }
+        }
+
+
+        public int CustomerID
+        {
+            get
+            {
+                //this line of code sends data out of the property
+                return mCustomerID;
+            }
+            set
+            {
                 //this line of code allows data into the property
-                    mCustomerID = value;
-                }
+                mCustomerID = value;
+            }
+        }
+
+
+
+        //function for the find public method
+        public bool Find(int CustomerID)
+        {
+            clsDataConnection dBConnection = new clsDataConnection();
+            // add the parameter for the customer id to search for
+            dBConnection.AddParameter("@CustomerID", CustomerID);
+            dBConnection.Execute("sproc_Customers_FilterByCustomerID");
+            //IF ONE RECORD IS FOUND (THERE SHOULD BE EITHER ONE OR ZERO)
+            if (dBConnection.Count == 1)
+
+            {
+
+
+                mFirstname = Convert.ToString(dBConnection.DataTable.Rows[0]["Firstname"]);
+                //get the Lastname from the query results
+                mLastname = Convert.ToString(dBConnection.DataTable.Rows[0]["Lastname"]);
+                //get the Email from the query results
+                mEmail = Convert.ToString(dBConnection.DataTable.Rows[0]["Email"]);
+                //get the house no from the query results
+                mHouseNo = Convert.ToString(dBConnection.DataTable.Rows[0]["HouseNo"]);
+                //get the street from the query results
+                mStreetname = Convert.ToString(dBConnection.DataTable.Rows[0]["Streetname"]);
+                //get the post code from the query results
+                mPostCode = Convert.ToString(dBConnection.DataTable.Rows[0]["PostCode"]);
+                //get the address no from the query results
+                mCustomerID = Convert.ToInt32(dBConnection.DataTable.Rows[0]["CustomerID"]);
+
+                mDateAdded = Convert.ToDateTime(dBConnection.DataTable.Rows[0]["DateAdded"]);
+
+                mCountry = Convert.ToString(dBConnection.DataTable.Rows[0]["Country"]);
+
+                mActive = Convert.ToBoolean(dBConnection.DataTable.Rows[0]["Active"]);
+
+
+                //always return true
+                return true;
+            }
+            else
+            {
+                return false;
             }
 
-  
 
-            //function for the find public method
-            public bool Find(int CustomerID)
-            {
-                clsDataConnection dBConnection = new clsDataConnection();
-                // add the parameter for the customer id to search for
-                dBConnection.AddParameter("@CustomerID", CustomerID);
-                dBConnection.Execute("sproc_Customers_FilterByCustomerID");
-                //IF ONE RECORD IS FOUND (THERE SHOULD BE EITHER ONE OR ZERO)
-                if (dBConnection.Count == 1)
-            
-                {
-            
-               
-                    mFirstname = Convert.ToString(dBConnection.DataTable.Rows[0]["Firstname"]);
-                    //get the Lastname from the query results
-                    mLastname = Convert.ToString(dBConnection.DataTable.Rows[0]["Lastname"]);
-                    //get the Email from the query results
-                    mEmail = Convert.ToString(dBConnection.DataTable.Rows[0]["Email"]);
-                    //get the house no from the query results
-                    mHouseNo = Convert.ToString(dBConnection.DataTable.Rows[0]["HouseNo"]);
-                    //get the street from the query results
-                    mStreetname = Convert.ToString(dBConnection.DataTable.Rows[0]["Streetname"]);
-                    //get the post code from the query results
-                    mPostCode = Convert.ToString(dBConnection.DataTable.Rows[0]["PostCode"]);
-                    //get the address no from the query results
-                    mCustomerID = Convert.ToInt32(dBConnection.DataTable.Rows[0]["CustomerID"]);
-
-                    mDateAdded = Convert.ToDateTime(dBConnection.DataTable.Rows[0]["DateAdded"]);
-
-                    mCountry = Convert.ToString(dBConnection.DataTable.Rows[0]["Country"]);
-
-                    mActive = Convert.ToBoolean(dBConnection.DataTable.Rows[0]["Active"]);
-
-
-                    //always return true
-                    return true;
-                }
-                else
-                {
-                    return false;
-                }
-            
-                
-                }
+        }
         //data member for data connection
         private clsDataConnection dBConnection = new clsDataConnection();
 
@@ -245,6 +245,7 @@ namespace PhoneTesting
         {
             //var to store the error message
             string ErrMsg = "";
+            DateTime DateTempt;
 
             //check the min length of the firstname
             if (firstname.Length == 0)
@@ -282,7 +283,7 @@ namespace PhoneTesting
             if (email.Length > 50)
             {
                 //set the error messsage
-                ErrMsg = ErrMsg + "email must be less than 50 characters. ";
+                ErrMsg = ErrMsg + "email must be less than 20 characters. ";
             }
 
 
@@ -314,7 +315,7 @@ namespace PhoneTesting
             if (streetname.Length > 50)
             {
                 //set the error messsage
-                ErrMsg = ErrMsg + "Street must be less than 50 characters. ";
+                ErrMsg = ErrMsg + "Street must be less than 10 characters. ";
             }
 
 
@@ -326,10 +327,10 @@ namespace PhoneTesting
                 ErrMsg = ErrMsg + "county is blank. ";
             }
             //check the max length for the county
-            if (county.Length > 6)
+            if (county.Length > 10)
             {
                 //set the error messsage
-                ErrMsg = ErrMsg + "county must be less than 50 characters. ";
+                ErrMsg = ErrMsg + "county must be less than 10 characters. ";
             }
 
 
@@ -351,9 +352,13 @@ namespace PhoneTesting
             try//try the operation
             {
                 //var to store the date
-                DateTime Temp;
+
                 //assign the date to the temporary var
-                Temp = Convert.ToDateTime(dateAdded);
+                DateTempt = Convert.ToDateTime(dateAdded);
+                if (DateTempt < DateTime.Now.Date)
+                {
+                    ErrMsg = ErrMsg + "The date cannot be in the future : ";
+                }
             }
             catch//if it failed report an error
             {
@@ -374,5 +379,5 @@ namespace PhoneTesting
         }
     }
 
-        }
+}
     

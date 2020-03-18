@@ -38,7 +38,7 @@ public partial class EditPage : System.Web.UI.Page
     protected void btnCancel_Click(object sender, EventArgs e)
     {
         //redirect to the main page
-        Response.Redirect("Default.aspx");
+        Response.Redirect("HomePage.aspx");
     }
 
     protected void btnOK_Click(object sender, EventArgs e)

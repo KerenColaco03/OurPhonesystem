@@ -119,7 +119,7 @@ namespace PhoneClasses
                 mOrderID = Convert.ToInt32(DB.DataTable.Rows[0]["OrderID"]);
                 mCardExpiry = Convert.ToDateTime(DB.DataTable.Rows[0]["CardExpiry"]);
                 mCardNo = Convert.ToInt32(DB.DataTable.Rows[0]["CardNo"]);
-                mCardHoldersName = Convert.ToString(DB.DataTable.Rows[0]["CardHoldersName"]);
+                mCardHoldersName = Convert.ToString(DB.DataTable.Rows[0]["CardHolersName"]);
                 //always reutnr tuire
                 return true;
             }
@@ -138,13 +138,17 @@ namespace PhoneClasses
             //create a string to variable toostore the rror 
             String Error = "";
             DateTime DateTemp;
-           
+
             //if the cardNo is blank
             if (cardNo.Length == 0)
             {
                 //record an error
                 Error = Error + "The CardNo may not be blank : ";
-
+            }
+            if (cardNo.Length < 16 | cardNo.Length > 16)
+            {
+                //record an error
+                Error = Error + "The CardNo must be 16 characters: ";
 
                 try
                 {
@@ -159,15 +163,11 @@ namespace PhoneClasses
                         Error = Error + "CardNo Too long ";
                     }
                 }
-
                 catch
                 {
                     Error = Error + "Please enter a valid cardNo";
                 }
-
             }
-         
-               
 
 
             //create
@@ -175,22 +175,18 @@ namespace PhoneClasses
             {
 
 
-                DateTemp = Convert.ToDateTime(cardExpiry);
+                DateTemp = Convert.ToDateTime(CardExpiry);
                 if (DateTemp < DateTime.Now.Date)
                 {
                     //Record the error
                     Error = Error + "The date cannot be in the past : ";
 
                 }
-                if (DateTemp > DateTime.Now.Date)
-                {
-                    Error = Error + "The data cannot be in the furture : ";
-                }
-                
+
             }
             catch
             {
-                Error = Error + "Please enter a valid Card expiry date";
+                Error = Error + "Please enter a valid OrderDate";
             }
 
             //if the card holders name is left blank
@@ -201,7 +197,7 @@ namespace PhoneClasses
                 //record an error
                 Error = Error + "The Card Holders Name may not be blank : ";
             }
-            if (cardHoldersName.Length >  50)
+            if (cardHoldersName.Length > 50)
             {
                 //record an error
                 Error = Error + "The Card Holders Name must be less than 50 characters : ";
@@ -209,9 +205,8 @@ namespace PhoneClasses
 
            
 
-
             //return any error messages
-            return Error ;
-        }   
+            return Error;
+        }
     }
 }

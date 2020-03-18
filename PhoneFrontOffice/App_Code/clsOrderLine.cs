@@ -77,7 +77,7 @@ namespace PhoneClasses
                 mOrderID = Convert.ToInt32(DB.DataTable.Rows[0]["OrderID"]);
                 mProductID = Convert.ToInt32(DB.DataTable.Rows[0]["ProductID"]);
                 mQuantity = Convert.ToInt32(DB.DataTable.Rows[0]["Quantity"]);
-                
+
 
                 //always reutnr tuire
                 return true;
@@ -90,7 +90,7 @@ namespace PhoneClasses
                 //return false indicating a problme
                 return false;
             }
-            
+
         }
 
         public string Valid( string quantity)

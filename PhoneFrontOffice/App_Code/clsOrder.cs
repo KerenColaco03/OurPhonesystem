@@ -133,6 +133,8 @@ namespace PhoneClasses
             {
                 //record an error
                 Error = Error + "The CardNo may not be blank : ";
+
+
                 try
                 {
                     Int32 Temp;
@@ -150,28 +152,24 @@ namespace PhoneClasses
                 {
                     Error = Error + "Please enter a valid customerID";
                 }
+            
+          
             }
-         
             //if the price is blank
             if (totalPrice.Length == 0)
             {
                 //record an error
                 Error = Error + "The totalPrice may not be blank : ";
-            }
-            if (totalPrice.Length <  3| totalPrice.Length > 7)
-            {
-                //record an error
-                Error = Error + "The totalPrice must be between 1 and 1000 integers: ";
-            }
+
             try
             {
                 Decimal Temp;
                 Temp = Convert.ToDecimal(totalPrice);
-                if (Temp < 1 )
+                if (Temp < 1)
                 {
                     Error = Error + "totalPrice Too short ";
                 }
-                if (Temp > 10000000)
+                if (Temp > 7)
                 {
                     Error = Error + "totalPrice Too long ";
                 }
@@ -180,6 +178,14 @@ namespace PhoneClasses
             {
                 Error = Error + "Please enter a valid totalPrice";
             }
+
+            }
+            //if (totalPrice.Length < 3 | totalPrice.Length > 7)
+            //{
+                //record an error
+                //Error = Error + "The totalPrice must be between 1 and 1000 integers: ";
+            //}
+      
 
 
             //return any error messages

@@ -11,7 +11,7 @@
         <div>
         </div>
         <p>
-            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="z-index: 1; left: 302px; top: 211px; position: absolute; width: 56px; right: 261px" Text="OK" />
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="z-index: 1; left: 300px; top: 221px; position: absolute; width: 56px; right: 933px; height: 20px;" Text="OK" />
             <asp:Label ID="lblError" runat="server" style="z-index: 1; left: 114px; top: 280px; position: absolute" Text="[lblError]"></asp:Label>
             <asp:TextBox ID="txtOrderDate" runat="server" style="z-index: 1; left: 143px; top: 164px; position: absolute"></asp:TextBox>
             <asp:TextBox ID="txtCustomerID" runat="server" style="z-index: 1; left: 142px; top: 112px; position: absolute"></asp:TextBox>

@@ -17,6 +17,7 @@ public partial class DeleteOrder : System.Web.UI.Page
     }
     void DeleteOrders()
     {
+        //
         //fucntion to delte the selected record
         //create a new insatcne of the payment book
         clsOrderCollection OrderBook = new clsOrderCollection();

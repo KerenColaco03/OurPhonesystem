@@ -30,7 +30,7 @@
         <p>
             &nbsp;</p>
         <p>
-        <asp:Button ID="btnAddToCart" runat="server" style="z-index: 1; left: 259px; top: 467px; position: absolute; height: 27px; width: 110px; " Text="OK" OnClick="btnAdd_Click" />
+        <asp:Button ID="btnAddToCart" runat="server" style="z-index: 1; left: 259px; top: 469px; position: absolute; height: 27px; width: 110px; " Text="OK" OnClick="btnAdd_Click" />
         </p>
     </form>
 </body>

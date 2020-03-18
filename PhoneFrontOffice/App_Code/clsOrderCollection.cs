@@ -6,6 +6,7 @@ namespace PhoneClasses
 {
     public class clsOrderCollection
     {
+        //
         //private data member for the list
         List<clsOrder> mOrderList = new List<clsOrder>();
         //private data member for the list

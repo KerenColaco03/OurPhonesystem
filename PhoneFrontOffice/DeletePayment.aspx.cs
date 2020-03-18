@@ -11,7 +11,7 @@ public partial class DeletePayment : System.Web.UI.Page
     Int32 PaymentID;
     protected void Page_Load(object sender, EventArgs e)
     {
-        
+        //
         //get the number of thepayment to be delted from the session object
         PaymentID = Convert.ToInt32(Session["PaymentID"]);
     }

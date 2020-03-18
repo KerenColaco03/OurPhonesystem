@@ -18,7 +18,7 @@
         <asp:TextBox ID="txtCardExpiry" runat="server" style="z-index: 1; left: 178px; top: 206px; position: absolute"></asp:TextBox>
         <asp:Button ID="btnAdd" runat="server" style="z-index: 1; left: 151px; top: 284px; position: absolute; height: 29px; width: 45px;" Text="Add" OnClick="btnAdd_Click" />
         <asp:Label ID="lblError" runat="server" style="z-index: 1; left: 85px; top: 384px; position: absolute; width: 198px" Text="[lblError]"></asp:Label>
-        <asp:Button ID="btnBack" runat="server" style="z-index: 1; left: 55px; top: 283px; position: absolute; right: 1029px" Text="Back" OnClick="btnBack_Click" />
+        <asp:Button ID="btnBack" runat="server" style="z-index: 1; left: 57px; top: 286px; position: absolute; right: 1186px; height: 29px;" Text="Back" OnClick="btnBack_Click" />
     </form>
 </body>
 </html>

@@ -10,6 +10,7 @@ namespace PhoneTesting
         [TestMethod]
         public void InstanceOK()
         {
+            //
             //create an instance of the class we want ot create
             clsPaymentCollection AllPayments = new clsPaymentCollection();
             //test to see that it exists

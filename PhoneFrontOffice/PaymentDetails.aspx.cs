@@ -17,13 +17,7 @@ public partial class PaymentDetails : System.Web.UI.Page
 
     protected void btnAdd_Click(object sender, EventArgs e)
     {
-        // clsPayment APayment = new clsPayment();
-        //APayment.CardHoldersName = txtCardHoldersName.Text;
-        //APayment.CardNo = Convert.ToInt32(txtCardNo.Text);
-        ////APayment.CardExpiry = Convert.ToDateTime(txtCardExpiry.Text);
-        //Session["APayment"] = APayment;
-        //Response.Redirect("PaymentAdded.aspx");
-        //event handler for the OK button
+        
         {
             //add the nee record
             Add();

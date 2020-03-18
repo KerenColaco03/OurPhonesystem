@@ -4,6 +4,7 @@ namespace PhoneClasses
 {
     public class clsOrder
     {
+        //
         private Int32 mOrderID;
         //private data member for the areder date property
         private DateTime mOrderDate;

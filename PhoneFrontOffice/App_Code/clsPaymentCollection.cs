@@ -4,6 +4,7 @@ namespace PhoneClasses
 {
     public class clsPaymentCollection
     {
+        //
         //private data member for the list
         List<clsPayment> mPaymentList = new List<clsPayment>();
         clsPayment mThisPayment = new clsPayment();

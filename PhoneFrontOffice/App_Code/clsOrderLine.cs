@@ -6,6 +6,7 @@ namespace PhoneClasses
     public class clsOrderLine
 
 
+        //
     {
         private Int32 mOrderLineID;
         //private data member for the Order property

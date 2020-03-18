@@ -13,7 +13,7 @@ public partial class RemoveCartItem : System.Web.UI.Page
     {
         //get the numbr of the item deleted from the objehct session
         OrderLineID = Convert.ToInt32(Session["OrderLineID"]);
-
+         //
     }
     
     protected void btnYes_Click(object sender, EventArgs e)

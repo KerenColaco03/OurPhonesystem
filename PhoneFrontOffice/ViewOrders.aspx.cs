@@ -14,6 +14,7 @@ public partial class ViewOrders : System.Web.UI.Page
 
     protected void btnDelete_Click(object sender, EventArgs e)
     {
+        //
         //var to store the primary key value of the record to e delted
         Int32 OrderID;
         //if a record had been slected fromt he list

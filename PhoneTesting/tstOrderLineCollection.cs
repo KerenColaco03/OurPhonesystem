@@ -11,6 +11,7 @@ namespace PhoneTesting
         [TestMethod]
         public void InstanceOK()
         {
+            //
             //create an instance of the class we want ot create
             clsOrderLineCollection AllOrderLines = new clsOrderLineCollection();
             //test to see that it exists

@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:TextBox ID="txtDisplayOrder" runat="server" style="z-index: 1; left: 243px; top: 356px; position: absolute"></asp:TextBox>
+            <asp:TextBox ID="txtDisplayOrder" runat="server" style="z-index: 1; left: 226px; top: 356px; position: absolute"></asp:TextBox>
             <asp:Label ID="lblEnterCustomerID" runat="server" style="z-index: 1; left: 57px; top: 353px; position: absolute; width: 161px" Text="Please enter your customer ID"></asp:Label>
             <asp:ListBox ID="lstOrder" runat="server" OnSelectedIndexChanged="lstPayments_SelectedIndexChanged" style="z-index: 1; left: 117px; top: 90px; position: absolute; height: 225px; width: 267px"></asp:ListBox>
             <asp:Button ID="btnDisplayAll" runat="server" OnClick="btnDisplayAll_Click" style="z-index: 1; left: 431px; top: 352px; position: absolute; height: 26px;" Text="Display All" />

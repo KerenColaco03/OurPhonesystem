@@ -14,7 +14,7 @@
         <asp:TextBox ID="txtCardHoldersName" runat="server" style="z-index: 1; left: 173px; top: 109px; position: absolute" OnTextChanged="txtCardHoldersName_TextChanged"></asp:TextBox>
         <asp:TextBox ID="txtCardNo" runat="server" style="z-index: 1; left: 170px; top: 154px; position: absolute"></asp:TextBox>
         <asp:TextBox ID="txtCardExpiry" runat="server" style="z-index: 1; left: 167px; top: 209px; position: absolute"></asp:TextBox>
-        <asp:Button ID="btnAdd" runat="server" style="z-index: 1; left: 151px; top: 284px; position: absolute; height: 29px; width: 43px" Text="Add" OnClick="btnAdd_Click" />
+        <asp:Button ID="btnAdd" runat="server" style="z-index: 1; left: 148px; top: 283px; position: absolute; height: 29px; width: 43px" Text="Add" OnClick="btnAdd_Click" />
         <asp:Button ID="btnBack" runat="server" style="z-index: 1; left: 55px; top: 283px; position: absolute; right: 1188px" Text="Back" OnClick="btnBack_Click" />
         <div>
         </div>

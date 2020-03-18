@@ -16,7 +16,7 @@
             <asp:ListBox ID="lstPayments" runat="server" OnSelectedIndexChanged="lstPayments_SelectedIndexChanged" style="z-index: 1; left: 117px; top: 90px; position: absolute; height: 225px; width: 267px"></asp:ListBox>
             <asp:Button ID="btnDisplayAll" runat="server" OnClick="btnDisplayAll_Click" style="z-index: 1; left: 431px; top: 352px; position: absolute" Text="Display All" />
         </div>
-        <asp:Button ID="btnEdit" runat="server" style="z-index: 1; left: 189px; top: 438px; position: absolute; right: 1142px" Text="Edit" OnClick="btnEdit_Click" />
+        <asp:Button ID="btnEdit" runat="server" style="z-index: 1; left: 183px; top: 438px; position: absolute; right: 1052px" Text="Edit" OnClick="btnEdit_Click" />
         <p>
             &nbsp;</p>
         <p>

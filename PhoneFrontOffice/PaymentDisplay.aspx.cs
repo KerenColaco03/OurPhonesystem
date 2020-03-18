@@ -13,6 +13,7 @@ public partial class PaymentDisplay : System.Web.UI.Page
         //if yhid id the first time page is dislayed
         if (IsPostBack == false)
         {
+            //
             //update the list box
             DisplayPayments();
 

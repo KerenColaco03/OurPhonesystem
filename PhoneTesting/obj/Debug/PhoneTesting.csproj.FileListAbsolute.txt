@@ -14,3 +14,35 @@ H:\iMAT 2204\Week 20\PhoneTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.
 H:\iMAT 2204\Week 20\PhoneTesting\obj\Debug\PhoneTesting.csproj.CopyComplete
 H:\iMAT 2204\Week 20\PhoneTesting\obj\Debug\PhoneTesting.dll
 H:\iMAT 2204\Week 20\PhoneTesting\obj\Debug\PhoneTesting.pdb
+H:\Project management\NEW BRANCH\PhoneTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+H:\Project management\NEW BRANCH\PhoneTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+H:\Project management\NEW BRANCH\PhoneTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+H:\Project management\NEW BRANCH\PhoneTesting\bin\Debug\PhoneTesting.dll
+H:\Project management\NEW BRANCH\PhoneTesting\bin\Debug\PhoneTesting.pdb
+H:\Project management\NEW BRANCH\PhoneTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+H:\Project management\NEW BRANCH\PhoneTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+H:\Project management\NEW BRANCH\PhoneTesting\bin\Debug\PhoneClasses.dll
+H:\Project management\NEW BRANCH\PhoneTesting\bin\Debug\PhoneClasses.pdb
+H:\Project management\NEW BRANCH\PhoneTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+H:\Project management\NEW BRANCH\PhoneTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+H:\Project management\NEW BRANCH\PhoneTesting\obj\Debug\PhoneTesting.csprojAssemblyReference.cache
+H:\Project management\NEW BRANCH\PhoneTesting\obj\Debug\PhoneTesting.csproj.CoreCompileInputs.cache
+H:\Project management\NEW BRANCH\PhoneTesting\obj\Debug\PhoneTesting.csproj.CopyComplete
+H:\Project management\NEW BRANCH\PhoneTesting\obj\Debug\PhoneTesting.dll
+H:\Project management\NEW BRANCH\PhoneTesting\obj\Debug\PhoneTesting.pdb
+H:\Project management\NEW BRANCH - Copy\PhoneTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+H:\Project management\NEW BRANCH - Copy\PhoneTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+H:\Project management\NEW BRANCH - Copy\PhoneTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+H:\Project management\NEW BRANCH - Copy\PhoneTesting\bin\Debug\PhoneTesting.dll
+H:\Project management\NEW BRANCH - Copy\PhoneTesting\bin\Debug\PhoneTesting.pdb
+H:\Project management\NEW BRANCH - Copy\PhoneTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+H:\Project management\NEW BRANCH - Copy\PhoneTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+H:\Project management\NEW BRANCH - Copy\PhoneTesting\bin\Debug\PhoneClasses.dll
+H:\Project management\NEW BRANCH - Copy\PhoneTesting\bin\Debug\PhoneClasses.pdb
+H:\Project management\NEW BRANCH - Copy\PhoneTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+H:\Project management\NEW BRANCH - Copy\PhoneTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+H:\Project management\NEW BRANCH - Copy\PhoneTesting\obj\Debug\PhoneTesting.csprojAssemblyReference.cache
+H:\Project management\NEW BRANCH - Copy\PhoneTesting\obj\Debug\PhoneTesting.csproj.CoreCompileInputs.cache
+H:\Project management\NEW BRANCH - Copy\PhoneTesting\obj\Debug\PhoneTesting.csproj.CopyComplete
+H:\Project management\NEW BRANCH - Copy\PhoneTesting\obj\Debug\PhoneTesting.dll
+H:\Project management\NEW BRANCH - Copy\PhoneTesting\obj\Debug\PhoneTesting.pdb

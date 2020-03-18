@@ -16,3 +16,21 @@ H:\iMAT 2204\Week 20\PhoneBackOffice\obj\Debug\PhoneBackOffice.csproj.GenerateRe
 H:\iMAT 2204\Week 20\PhoneBackOffice\obj\Debug\PhoneBackOffice.csproj.CoreCompileInputs.cache
 H:\iMAT 2204\Week 20\PhoneBackOffice\obj\Debug\PhoneBackOffice.exe
 H:\iMAT 2204\Week 20\PhoneBackOffice\obj\Debug\PhoneBackOffice.pdb
+H:\Project management\NEW BRANCH\PhoneBackOffice\bin\Debug\PhoneBackOffice.exe.config
+H:\Project management\NEW BRANCH\PhoneBackOffice\bin\Debug\PhoneBackOffice.exe
+H:\Project management\NEW BRANCH\PhoneBackOffice\bin\Debug\PhoneBackOffice.pdb
+H:\Project management\NEW BRANCH\PhoneBackOffice\obj\Debug\PhoneBackOffice.Properties.Resources.resources
+H:\Project management\NEW BRANCH\PhoneBackOffice\obj\Debug\PhoneBackOffice.csproj.GenerateResource.cache
+H:\Project management\NEW BRANCH\PhoneBackOffice\obj\Debug\PhoneBackOffice.csproj.CoreCompileInputs.cache
+H:\Project management\NEW BRANCH\PhoneBackOffice\obj\Debug\PhoneBackOffice.exe
+H:\Project management\NEW BRANCH\PhoneBackOffice\obj\Debug\PhoneBackOffice.pdb
+H:\Project management\NEW BRANCH\PhoneBackOffice\obj\Debug\PhoneBackOffice.csprojAssemblyReference.cache
+H:\Project management\NEW BRANCH - Copy\PhoneBackOffice\bin\Debug\PhoneBackOffice.exe.config
+H:\Project management\NEW BRANCH - Copy\PhoneBackOffice\bin\Debug\PhoneBackOffice.exe
+H:\Project management\NEW BRANCH - Copy\PhoneBackOffice\bin\Debug\PhoneBackOffice.pdb
+H:\Project management\NEW BRANCH - Copy\PhoneBackOffice\obj\Debug\PhoneBackOffice.csprojAssemblyReference.cache
+H:\Project management\NEW BRANCH - Copy\PhoneBackOffice\obj\Debug\PhoneBackOffice.Properties.Resources.resources
+H:\Project management\NEW BRANCH - Copy\PhoneBackOffice\obj\Debug\PhoneBackOffice.csproj.GenerateResource.cache
+H:\Project management\NEW BRANCH - Copy\PhoneBackOffice\obj\Debug\PhoneBackOffice.csproj.CoreCompileInputs.cache
+H:\Project management\NEW BRANCH - Copy\PhoneBackOffice\obj\Debug\PhoneBackOffice.exe
+H:\Project management\NEW BRANCH - Copy\PhoneBackOffice\obj\Debug\PhoneBackOffice.pdb

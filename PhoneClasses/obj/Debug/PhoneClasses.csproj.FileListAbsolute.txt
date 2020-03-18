@@ -4,3 +4,15 @@ H:\iMAT 2204\Week 20\PhoneClasses\obj\Debug\PhoneClasses.csprojAssemblyReference
 H:\iMAT 2204\Week 20\PhoneClasses\obj\Debug\PhoneClasses.csproj.CoreCompileInputs.cache
 H:\iMAT 2204\Week 20\PhoneClasses\obj\Debug\PhoneClasses.dll
 H:\iMAT 2204\Week 20\PhoneClasses\obj\Debug\PhoneClasses.pdb
+H:\Project management\NEW BRANCH\PhoneClasses\bin\Debug\PhoneClasses.dll
+H:\Project management\NEW BRANCH\PhoneClasses\bin\Debug\PhoneClasses.pdb
+H:\Project management\NEW BRANCH\PhoneClasses\obj\Debug\PhoneClasses.csproj.CoreCompileInputs.cache
+H:\Project management\NEW BRANCH\PhoneClasses\obj\Debug\PhoneClasses.dll
+H:\Project management\NEW BRANCH\PhoneClasses\obj\Debug\PhoneClasses.pdb
+H:\Project management\NEW BRANCH\PhoneClasses\obj\Debug\PhoneClasses.csprojAssemblyReference.cache
+H:\Project management\NEW BRANCH - Copy\PhoneClasses\bin\Debug\PhoneClasses.dll
+H:\Project management\NEW BRANCH - Copy\PhoneClasses\bin\Debug\PhoneClasses.pdb
+H:\Project management\NEW BRANCH - Copy\PhoneClasses\obj\Debug\PhoneClasses.csprojAssemblyReference.cache
+H:\Project management\NEW BRANCH - Copy\PhoneClasses\obj\Debug\PhoneClasses.csproj.CoreCompileInputs.cache
+H:\Project management\NEW BRANCH - Copy\PhoneClasses\obj\Debug\PhoneClasses.dll
+H:\Project management\NEW BRANCH - Copy\PhoneClasses\obj\Debug\PhoneClasses.pdb

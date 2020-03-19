@@ -25,3 +25,12 @@ C:\Users\p2577087\Source\Repos\OurPhonesystem7\PhoneBackOffice\obj\Debug\PhoneBa
 C:\Users\p2577087\Source\Repos\OurPhonesystem7\PhoneBackOffice\obj\Debug\PhoneBackOffice.csproj.CoreCompileInputs.cache
 C:\Users\p2577087\Source\Repos\OurPhonesystem7\PhoneBackOffice\obj\Debug\PhoneBackOffice.exe
 C:\Users\p2577087\Source\Repos\OurPhonesystem7\PhoneBackOffice\obj\Debug\PhoneBackOffice.pdb
+C:\Users\p2577087\Source\Repos\OurPhonesystem\PhoneBackOffice\bin\Debug\PhoneBackOffice.exe.config
+C:\Users\p2577087\Source\Repos\OurPhonesystem\PhoneBackOffice\bin\Debug\PhoneBackOffice.exe
+C:\Users\p2577087\Source\Repos\OurPhonesystem\PhoneBackOffice\bin\Debug\PhoneBackOffice.pdb
+C:\Users\p2577087\Source\Repos\OurPhonesystem\PhoneBackOffice\obj\Debug\PhoneBackOffice.csprojAssemblyReference.cache
+C:\Users\p2577087\Source\Repos\OurPhonesystem\PhoneBackOffice\obj\Debug\PhoneBackOffice.Properties.Resources.resources
+C:\Users\p2577087\Source\Repos\OurPhonesystem\PhoneBackOffice\obj\Debug\PhoneBackOffice.csproj.GenerateResource.cache
+C:\Users\p2577087\Source\Repos\OurPhonesystem\PhoneBackOffice\obj\Debug\PhoneBackOffice.csproj.CoreCompileInputs.cache
+C:\Users\p2577087\Source\Repos\OurPhonesystem\PhoneBackOffice\obj\Debug\PhoneBackOffice.exe
+C:\Users\p2577087\Source\Repos\OurPhonesystem\PhoneBackOffice\obj\Debug\PhoneBackOffice.pdb

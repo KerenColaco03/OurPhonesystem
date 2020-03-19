@@ -59,5 +59,27 @@ namespace PhoneTesting
             AllStaff.ThisStaff = TestStaff;
             Assert.AreEqual(AllStaff.ThisStaff, TestStaff);
         }
+
+        // [TestMethod]
+        //public void StaffAdd()
+        //{
+        //  clsStaffCollection AllStaff = new clsStaffCollection();
+        // clsStaff TestItem = new clsStaff();
+        //Int32 PrimaryKey = 0;
+        //TestItem.HouseNumber = 1;
+        //TestItem.StreetName = "Welland";
+        //TestItem.LastName = "Rayman";
+        //TestItem.FirstName = "Reman";
+        //TestItem.County = "Leicestershire";
+        //TestItem.Password = "Qwerty123";
+        //TestItem.PostCode = "LE3 4DJ";
+        //TestItem.Email = "reman_rayman@hotmail.co.uk";
+        //AllStaff.ThisStaff = TestItem;
+        //PrimaryKey = AllStaff.Add();
+        //TestItem.HouseNumber = PrimaryKey;
+        //AllStaff.ThisStaff.Find(PrimaryKey);
+        //Assert.AreEqual(AllStaff.ThisStaff, TestItem);
+        //}
+
     }
 }

@@ -42,5 +42,22 @@ namespace PhoneTesting
             AllStaff.Count = SomeCount;
             Assert.AreEqual(AllStaff.Count, SomeCount);
         }
+
+        [TestMethod]
+        public void ThisStaff()
+        {
+            clsStaffCollection AllStaff = new clsStaffCollection();
+            clsStaff TestStaff = new clsStaff();
+            TestStaff.HouseNumber = 1;
+            TestStaff.StreetName = "Welland";
+            TestStaff.LastName = "Rayman";
+            TestStaff.FirstName = "Reman";
+            TestStaff.County = "Leicestershire";
+            TestStaff.Password = "Qwerty123";
+            TestStaff.PostCode = "LE3 4DJ";
+            TestStaff.Email = "reman_rayman@hotmail.co.uk";
+            AllStaff.ThisStaff = TestStaff;
+            Assert.AreEqual(AllStaff.ThisStaff, TestStaff);
+        }
     }
 }

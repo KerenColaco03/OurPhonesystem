@@ -259,34 +259,39 @@ namespace PhoneTesting
             clscustomer TestItem = new clscustomer();
             Int32 Primarykey = 0;
             //set its properyties 
-            TestItem.Active = true;
-            TestItem.CustomerID = 1;
-            TestItem.Email = "kabir@yahoo.com";
-            TestItem.PostCode = "LE2 7HY";
-            TestItem.Streetname = "some street";
-            TestItem.HouseNo = "123a";
+
             TestItem.Firstname = "kabzy";
             TestItem.Lastname = "farouq";
-            TestItem.DateAdded = DateTime.Now.Date;
+            TestItem.Email = "kabir@yahoo.com";
+           
+            TestItem.HouseNo = "123a";
+            TestItem.Streetname = "some street";
             TestItem.County = "12h";
+            TestItem.PostCode = "LE2 7HY";
             TestItem.Country = "Nigeria";
+            TestItem.DateAdded = DateTime.Now.Date;
+            
+           
+            TestItem.Active = true;
             AllCustomers.ThisCustomer = TestItem;
             //add the record
             Primarykey = AllCustomers.Add();
             //set the primary key of the test data
             TestItem.CustomerID = Primarykey;
             //modify the test data
-            TestItem.Active = true;
-            TestItem.CustomerID = 1;
-            TestItem.Email = "kabir@yahoo.com";
-            TestItem.PostCode = "LE2 7HY";
-            TestItem.Streetname = "some street";
-            TestItem.HouseNo = "123a";
             TestItem.Firstname = "kabzy";
             TestItem.Lastname = "farouq";
-            TestItem.DateAdded = DateTime.Now.Date;
+            TestItem.Email = "kabir@yahoo.com";
+
+            TestItem.HouseNo = "123a";
+            TestItem.Streetname = "some street";
             TestItem.County = "12h";
+            TestItem.PostCode = "LE2 7HY";
             TestItem.Country = "Nigeria";
+            TestItem.DateAdded = DateTime.Now.Date;
+
+
+            TestItem.Active = true;
             //set the record based on the new test data
             AllCustomers.ThisCustomer = TestItem;
             //update the record
@@ -416,11 +421,11 @@ namespace PhoneTesting
             Boolean OK = true;
 
             //create some text data to use with the method
-            Int32 CustomerID = 1;
+            Int32 CustomerID = 21;
             //invoke the method
             Found = ACustomer.Find(CustomerID);
             //check the Streetname
-            if (ACustomer.Streetname != "Test streetname")
+            if (ACustomer.Streetname != "streetname")
             {
                 OK = false;
             }
@@ -889,8 +894,8 @@ namespace PhoneTesting
             //string variable to store any error message
             String Error = "";
             //create some test data to pass to the method
-            string Email = "fdfefff@yahoo.com"; //this should be ok
-            Email = Email.PadRight(19, 'a');
+            string Email = ""; //this should be ok
+            Email = Email.PadRight(49, 'a');
             //invoke the method
             Error = ACustomer.Valid(Firstname, Lastname, Email, HouseNo, Streetname, County, PostCode, DateAdded);
             //test to see that the result is correct
@@ -905,7 +910,7 @@ namespace PhoneTesting
             String Error = "";
             //create some test data to pass to the method
             string Email = ""; //this should be ok
-            Email = Email.PadRight(48, 'a');
+            Email = Email.PadRight(100, 'a');
             //invoke the method
             Error = ACustomer.Valid(Firstname, Lastname, Email, HouseNo, Streetname, County, PostCode, DateAdded);
             //test to see that the result is correct

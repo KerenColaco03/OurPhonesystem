@@ -109,6 +109,7 @@ namespace PhoneTesting
             //create a connection to the database
             clsDataConnection NewCustomer = new clsDataConnection();
             //add the Firstname parameter
+            NewCustomer.AddParameter("@CustomerID", mThisCustomer.CustomerID);
             NewCustomer.AddParameter("@Firstname", mThisCustomer.Firstname);
             //add the Lastname parameter
             NewCustomer.AddParameter("@Lastname", mThisCustomer.Lastname);

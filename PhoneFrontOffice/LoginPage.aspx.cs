@@ -5,9 +5,11 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.SqlClient;
-using System.Configuration;
+
 public partial class LoginPage : System.Web.UI.Page
 {
+    SqlConnection conn = new SqlConnection("Data Source=keren.database.windows.net;Initial Catalog=Phones;User ID=phone;Password=***********");
+
     protected void Page_Load(object sender, EventArgs e)
     {
 
@@ -15,32 +17,41 @@ public partial class LoginPage : System.Web.UI.Page
 
     protected void BtnSubmit_Click(object sender, EventArgs e)
     {
-        SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["PhonesConnectionString"].ConnectionString);
-        conn.Open();
-        string checkuser = "select count(*) from UserData where Username = '" + txtUsername.Text + "'";
-        SqlCommand com = new SqlCommand(checkuser, conn);
-        int temp = Convert.ToInt32(com.ExecuteScalar().ToString());
-        conn.Close();
-        if (temp == 1)
+
+
+        string strcon = "Data Source=keren.database.windows.net;Initial Catalog=Phones;User ID=phone;Password=***********";
+        SqlConnection con = new SqlConnection(strcon);
+        SqlCommand com = new SqlCommand("CUser", con);
+        com.CommandType = System.Data.CommandType.StoredProcedure;
+        SqlParameter p1 = new SqlParameter("username", txtUsername.Text);
+        SqlParameter p2 = new SqlParameter("password", txtPassword.Text);
+        com.Parameters.Add(p1);
+        com.Parameters.Add(p2);
+        con.Open();
+        SqlDataReader rd = com.ExecuteReader();
+        if (rd.HasRows)
         {
-            conn.Open();
-            string CheckPasswordQuery = " select Password from UserData  Where Username= '" + txtUsername.Text + "'";
-            SqlCommand passCom = new SqlCommand(CheckPasswordQuery, conn);
-            string password = passCom.ExecuteScalar().ToString().Replace(" ", "");
-            if (password == txtPassword.Text)
-            {
-                Session["New"] = txtUsername.Text;
-                Response.Write("password is correct");
-                Response.Redirect("AddPage.aspx");
-            }
-            else
-            {
-                Response.Write("password is NOT correct");
-            }
+            Response.Redirect("AddPage.aspx");
+            rd.Read();
+            Label3.Text = "Login successful.";
+            Label3.Visible = true;
         }
         else
         {
-            Response.Write("UserName is NOT correct");
+            Label3.Text = "Invalid username or password.";
+            Label3.Visible = true;
+
         }
     }
+
+    protected void BtnCancel_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("HomePage.aspx");
+    }
 }
+         
+
+
+
+
+       

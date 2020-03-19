@@ -64,7 +64,7 @@ public partial class AddPage : System.Web.UI.Page
             //store the data in the session object
             Session["CustomerID"] = CustomerID;
             //redirect to the delete page
-            Response.Redirect("Delete.aspx");
+            Response.Redirect("DeletePage.aspx");
         }
         else //if no record has been selected
         {

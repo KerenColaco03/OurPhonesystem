@@ -279,11 +279,11 @@ namespace PhoneTesting
                 //set the error messsage
                 ErrMsg = ErrMsg + "email is blank. ";
             }
-            //check the max length of the street
+            //check the max length of the email
             if (email.Length > 50)
             {
                 //set the error messsage
-                ErrMsg = ErrMsg + "email must be less than 20 characters. ";
+                ErrMsg = ErrMsg + "email must be less than 50 characters. ";
             }
 
 
@@ -315,7 +315,7 @@ namespace PhoneTesting
             if (streetname.Length > 50)
             {
                 //set the error messsage
-                ErrMsg = ErrMsg + "Street must be less than 10 characters. ";
+                ErrMsg = ErrMsg + "Street must be less than 50 characters. ";
             }
 
 
